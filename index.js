@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const debug = require('debug')('catbird');
 const chokidar = require('chokidar');
 const fs = require('fs');

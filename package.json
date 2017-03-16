@@ -1,6 +1,6 @@
 {
   "name": "catbird",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Watch files, run npm scripts",
   "main": "index.js",
 	"bin": {
