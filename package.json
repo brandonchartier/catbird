@@ -1,0 +1,31 @@
+{
+  "name": "catbird",
+  "version": "1.0.0",
+  "description": "Watch files, run npm scripts",
+  "main": "index.js",
+	"bin": {
+    "catbird": "./index.js"
+	},
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonchartier/catbird.git"
+  },
+  "keywords": [
+		"monitor"
+	],
+  "author": "Brandon Chartier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonchartier/catbird/issues"
+  },
+  "homepage": "https://github.com/brandonchartier/catbird#readme",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "cross-spawn": "^5.1.0",
+    "debug": "^2.6.3",
+    "minimist": "^1.2.0"
+  }
+}
